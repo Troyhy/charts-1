@@ -199,8 +199,8 @@ backup:
       cpu: 1
 
   # Name of the secret containing the credentials of the service account used by GOOGLE_APPLICATION_CREDENTIALS, as a credentials.json file
-  # google:
-    # serviceAccountSecret:
+  google:
+    serviceAccountSecret: ''
 
   # Destination to store the backup artifacts
   # Supported cloud storage services: AWS S3, Minio S3, Azure Blob Storage, Google Cloud Storage
